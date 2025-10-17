@@ -1,0 +1,135 @@
+header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+header ul{
+    float: left;
+}
+
+header li{
+    float: left;
+    list-style: none;
+    padding-right: 20px;
+    color: white;
+    font-size: 18px;
+    width: 180px;
+}
+
+main{
+    clear: both;
+}
+
+main-container{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.left{
+    float: left;
+    width: 75%;
+}
+
+h1{
+    border-left: 5px solid black;
+    border-bottom: 2px solid gray;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+.left h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-left: 4px solid red;
+    background-color: #f1f1f1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: 500px;
+    font-size: 20px;
+}
+
+.form{
+    margin-left: 10px;
+    background-color: #fbfbfb;
+    border: 3px solid #ebebeb;
+    border-radius: 10px;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+form div{
+    padding: 15px;
+    margin-bottom: 5px;
+}
+
+.text, textarea{
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+    outline: none;
+} 
+
+.submit{
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: #bfbfbf;
+    border-radius: 5px;
+    border-bottom: 2px solid gray;
+}
+
+.kiji{
+    background-color: #fbfbfb;
+    border: 3px solid #ebebeb;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    padding: 15px;
+    width: 1050px;
+}
+
+.kiji h3{
+    font-size: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+
+.kiji .comments{
+    margin-bottom: 5px;
+}
+
+.kiji .handlename{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+
+.right{
+    float: right;
+    width: 24.4%;
+    height: 1655;
+    margin-top: 10px;
+}
+
+.right li{
+    list-style: none;
+}
+
+.right h2{
+    border-bottom: 2px dotted black;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 60px;
+}
