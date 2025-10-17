@@ -1,0 +1,92 @@
+header{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+header ul{
+    float: left;
+}
+
+header li{
+    float: left;
+    list-style: none;
+    padding-right: 20px;
+    color: white;
+    font-size: 18px;
+    width: 180px;
+}
+
+.abc img{
+    width: 100%;
+}
+
+main{
+    clear: both;
+}
+
+.main-cotainer{
+    width: 95%;
+    margin: 0 auto; margin-top: 70px;
+}
+.left{
+    float: left;
+    width: 75%;
+    border-top: 4px solid blue;
+    border-right: 4px solid blue;
+    border-bottom: 4px solid blue;
+    margin-top: 10px;
+}
+
+h1{
+    border-left: 5px solid black;
+    border-bottom: 2px solid gray;
+    margin-top: 5px;
+    padding-left: 10px;   
+}
+
+.box3{
+    width: 100%;
+    background-color: lightgray;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box3 img{
+    width: 250px;
+    margin: 20px 10px -10px 10px
+}
+
+.box3 .box-pic3{
+    display: inline-block;
+}
+
+.right{
+    float: right;
+    width: 24.4%;
+    height: 1655px;
+    border-top: 4px solid red;
+    border-left: 4px solid red;
+    border-bottom: 4px solid red;
+    margin-top: 10px;
+}
+
+.right li{
+    list-style: none;
+}
+
+.right h2{
+    border-bottom: 2px solid lightgray;
+}
+
+footer{
+    clear: both;
+    width: 100%%;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 60px;
+}
